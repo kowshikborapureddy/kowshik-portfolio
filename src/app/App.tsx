@@ -692,6 +692,7 @@ function OrderPulseModal({ onClose }: { onClose: () => void }) {
   const artifacts = [
     { label: "FIGMA", href: "https://www.figma.com/community/file/1684126733595502890/orderpulse-proactive-recovery-for-late-night-food-delivery" },
     { label: "GITHUB", href: "https://github.com/kowshikborapureddy/OrderPulse-Proactive-Recovery" },
+    { label: "MEDIUM", href: "https://medium.com/@kowshikborapureedy/orderpulse-proactive-recovery-for-late-night-food-delivery-4954bb6d41be" },
   ];
   const mvp = [
     "Delivery-risk monitoring",
@@ -984,6 +985,17 @@ function SelectedWorkSection() {
                       onMouseLeave={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.1)")}
                     >
                       GITHUB <ExternalLink size={11} />
+                    </a>
+                    <a
+                      href="https://medium.com/@kowshikborapureedy/orderpulse-proactive-recovery-for-late-night-food-delivery-4954bb6d41be"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 text-xs tracking-wider px-4 py-2.5 rounded-full text-white/55 hover:text-white transition-all duration-300"
+                      style={{ border: "1px solid rgba(255,255,255,0.1)", fontFamily: MONO }}
+                      onMouseEnter={(e) => (e.currentTarget.style.borderColor = "rgba(124,92,252,0.4)")}
+                      onMouseLeave={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.1)")}
+                    >
+                      MEDIUM <ExternalLink size={11} />
                     </a>
                   </div>
                 </div>
