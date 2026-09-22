@@ -11,6 +11,12 @@ import {
 import portraitImg from "../imports/IMAGE_2.jpg";
 import orderPulseImg from "../imports/ChatGPT_Image_Sep_22__2026__11_20_30_AM.png";
 import certImg from "../imports/Screenshot_2026-09-22_144625.png";
+import googleCloudCertImg from "../imports/certificates/google-cloud-genai.png";
+import excelrCertImg from "../imports/certificates/excelr-java.png";
+import excelerateCertImg from "../imports/certificates/excelerate-project-management.png";
+import yarTechCertImg from "../imports/certificates/yar-tech-web-development.png";
+import simplilearnCertImg from "../imports/certificates/simplilearn-product-management.png";
+import openaiNxtwaveCertImg from "../imports/certificates/openai-nxtwave-buildathon.png";
 
 // ─── Constants ─────────────────────────────────────────────────────────────────
 const DISPLAY = "'Bricolage Grotesque', sans-serif";
@@ -636,7 +642,7 @@ function ProductThinkingSection() {
           </h2>
         </FadeUp>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {steps.map((step, i) => (
             <FadeUp key={step.num} delay={i * 0.09}>
               <div
@@ -1287,20 +1293,38 @@ function CertificationsSection() {
     {
       org: "Google Cloud",
       course: "Gen AI Academy APAC 2026 — Cohort 2",
-      date: "2026",
-      image: null,
+      date: "July 23, 2026",
+      image: googleCloudCertImg,
     },
     {
       org: "ExcelR",
       course: "Full Stack Java Development Certification",
-      date: "2025",
-      image: null,
+      date: "August 13, 2026",
+      image: excelrCertImg,
+    },
+    {
+      org: "Excelerate × Saint Louis University",
+      course: "Project Management Associate — Early Remote Internship",
+      date: "July 01, 2026",
+      image: excelerateCertImg,
+    },
+    {
+      org: "Yar Tech Services",
+      course: "Web Development Internship",
+      date: "February 19, 2025",
+      image: yarTechCertImg,
+    },
+    {
+      org: "Simplilearn SkillUp",
+      course: "Product Management 101: Who is a Product Manager?",
+      date: "July 13, 2026",
+      image: simplilearnCertImg,
     },
     {
       org: "OpenAI Academy × NxtWave",
-      course: "Generative AI Mastery Workshop",
-      date: "2025",
-      image: null,
+      course: "Regional Buildathon — Andhra Pradesh",
+      date: "November 02, 2025",
+      image: openaiNxtwaveCertImg,
     },
   ];
 
